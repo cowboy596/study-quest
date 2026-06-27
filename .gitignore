@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local configuration and data
+.env
+data/*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Runtime logs
+work-logs*/
+*.log
+
+# Local agent workflow files
+.agents/
+.codex/
+.trellis/
+AGENTS.md
+docs/superpowers/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

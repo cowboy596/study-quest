@@ -1,0 +1,2 @@
+subject,type,stem,options,answer,explanation,tags,difficulty
+Networking,short_answer,Briefly explain what DNS does.,[],DNS translates domain names into IP addresses.,DNS lets users access network services with readable domain names instead of remembering IP addresses.,"network,dns",medium

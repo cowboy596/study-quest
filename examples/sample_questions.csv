@@ -1,0 +1,6 @@
+subject,type,stem,options,answer,explanation,tags,difficulty
+Networking,single_choice,Which protocol is connection-oriented?,"[""A. TCP"",""B. UDP"",""C. IP"",""D. ICMP""]",A,TCP establishes a connection before transferring data.,"network,protocol",easy
+Python,single_choice,Which keyword defines a function in Python?,"[""A. func"",""B. def"",""C. function"",""D. lambda""]",B,The def keyword starts a named function definition.,"python,syntax",easy
+Database,single_choice,Which SQL statement reads rows from a table?,"[""A. SELECT"",""B. INSERT"",""C. UPDATE"",""D. DELETE""]",A,SELECT queries data from one or more tables.,"sql,database",easy
+Web,single_choice,What does HTTP stand for?,"[""A. HyperText Transfer Protocol"",""B. High Transfer Text Process"",""C. Host Transfer Type Protocol"",""D. Hyper Tool Transfer Port""]",A,HTTP is the HyperText Transfer Protocol used by the web.,"web,http",easy
+AI,single_choice,What is a prompt in an AI model interaction?,"[""A. A database table"",""B. User-provided instruction or input"",""C. A network packet"",""D. A CSS selector""]",B,A prompt is the input or instruction given to the model.,"ai,basic",easy

@@ -1,0 +1,22 @@
+# Test Checklist
+
+- [x] Install dependencies.
+- [x] Run `python -m pytest`.
+- [x] Start app with `python -m streamlit run app.py`.
+- [x] Open home page and confirm question count is visible.
+- [x] Upload or import `examples/sample_questions.csv`.
+- [x] Confirm import reports 5 rows.
+- [x] Confirm home page count increases to 5.
+- [x] Import the same file again and confirm total stays 5.
+- [x] Confirm duplicate rows are reported as skipped.
+- [x] Confirm AI Generate, Quiz, and Mistakes navigation entries exist.
+- [x] Confirm Clear all questions empties questions and mistakes.
+- [x] Confirm random question count and filters.
+- [x] Confirm single-choice grading.
+- [x] Confirm multiple-choice grading ignores order.
+- [x] Confirm true/false grading.
+- [x] Confirm short answers are excluded from accuracy.
+- [x] Confirm incorrect objective questions can be added to mistakes once.
+- [x] Confirm mistakes can be filtered and removed.
+- [x] Confirm favorites can be added once, filtered, and removed.
+- [x] Confirm Quiz, Mistakes, and Favorites pages render without errors.
