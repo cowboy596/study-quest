@@ -15,3 +15,8 @@
 - Automatically add only incorrect objective questions to Mistakes; short answers remain self-check in V0.2.
 - Send all manual save actions to a separate Favorites collection so mistakes retain their diagnostic meaning.
 - Enforce one Mistakes and one Favorites row per question with unique SQLite indexes.
+
+## 2026-06-28
+
+- V0.3 使用本地 Ollama 和 `qwen3:8b` 生成题目，不采用按请求计费的云端 API。
+- 从本次设计开始，StudyQuest 新增或更新的项目文档默认使用中文；代码标识符、命令、环境变量和文件名保留其原始英文形式。
