@@ -1,22 +1,30 @@
-# Test Checklist
+# 测试清单
 
-- [x] Install dependencies.
-- [x] Run `python -m pytest`.
-- [x] Start app with `python -m streamlit run app.py`.
-- [x] Open home page and confirm question count is visible.
-- [x] Upload or import `examples/sample_questions.csv`.
-- [x] Confirm import reports 5 rows.
-- [x] Confirm home page count increases to 5.
-- [x] Import the same file again and confirm total stays 5.
-- [x] Confirm duplicate rows are reported as skipped.
-- [x] Confirm AI Generate, Quiz, and Mistakes navigation entries exist.
-- [x] Confirm Clear all questions empties questions and mistakes.
-- [x] Confirm random question count and filters.
-- [x] Confirm single-choice grading.
-- [x] Confirm multiple-choice grading ignores order.
-- [x] Confirm true/false grading.
-- [x] Confirm short answers are excluded from accuracy.
-- [x] Confirm incorrect objective questions can be added to mistakes once.
-- [x] Confirm mistakes can be filtered and removed.
-- [x] Confirm favorites can be added once, filtered, and removed.
-- [x] Confirm Quiz, Mistakes, and Favorites pages render without errors.
+- [x] 安装依赖。
+- [x] 运行 `python -m pytest -q`。
+- [x] 启动应用 `python -m streamlit run app.py`。
+- [x] 打开 Home 页面并确认题库数量可见。
+- [x] 确认 CSV 导入正常。
+- [x] 确认 XLSX 导入正常。
+- [x] 确认 JSON 对象格式导入正常。
+- [x] 确认 JSON list 格式导入正常。
+- [x] 确认 Markdown 模板导入正常。
+- [x] 确认 TXT 模板导入正常。
+- [x] 确认缺少必需字段时显示错误。
+- [x] 确认非法 options 时显示错误。
+- [x] 确认 Markdown/TXT 部分题目模板错误时，有效题仍可解析。
+- [x] 确认重复导入不会重复保存。
+- [x] 确认导入后的题目可以被 Quiz 抽到。
+- [x] 确认 Clear all questions 会清空题库、错题集和收藏夹。
+- [x] 确认随机抽题数量和筛选条件。
+- [x] 确认单选题批改。
+- [x] 确认多选题批改忽略顺序。
+- [x] 确认判断题批改。
+- [x] 确认简答题不计入正确率。
+- [x] 确认客观题答错后自动加入错题集。
+- [x] 确认结果页可以手动加入错题集和收藏夹。
+- [x] 确认错题集可以筛选和移出。
+- [x] 确认收藏夹可以加入一次、筛选和移出。
+- [x] 确认 AI 返回 JSON 可以解析和标准化。
+- [x] 确认 AI 生成题目可以保存到 `questions` 表。
+- [x] 确认重复 AI 题目不会重复保存。

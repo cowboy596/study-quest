@@ -1,0 +1,35 @@
+---
+subject: Web
+type: single_choice
+difficulty: easy
+tags: web,http
+stem: What does HTTP stand for?
+options:
+A. HyperText Transfer Protocol
+B. High Transfer Text Process
+C. Host Transfer Type Protocol
+D. Hyper Tool Transfer Port
+answer: A
+explanation: HTTP is the HyperText Transfer Protocol used by the web.
+---
+subject: AI
+type: single_choice
+difficulty: easy
+tags: ai,basic
+stem: What is a prompt in an AI model interaction?
+options:
+A. A database table
+B. User-provided instruction or input
+C. A network packet
+D. A CSS selector
+answer: B
+explanation: A prompt is the input or instruction given to the model.
+---
+subject: Python
+type: short_answer
+difficulty: easy
+tags: python,function
+stem: What is a Python function?
+options:
+answer: A reusable block of code.
+explanation: A function packages logic so it can be called multiple times.

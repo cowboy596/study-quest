@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "subject": "Networking",
+      "type": "single_choice",
+      "stem": "Which protocol is connection-oriented?",
+      "options": ["A. TCP", "B. UDP", "C. IP", "D. ICMP"],
+      "answer": "A",
+      "explanation": "TCP establishes a connection before transferring data.",
+      "tags": "network,protocol",
+      "difficulty": "easy"
+    },
+    {
+      "subject": "Python",
+      "type": "single_choice",
+      "stem": "Which keyword defines a function in Python?",
+      "options": ["A. func", "B. def", "C. function", "D. lambda"],
+      "answer": "B",
+      "explanation": "The def keyword starts a named function definition.",
+      "tags": "python,syntax",
+      "difficulty": "easy"
+    },
+    {
+      "subject": "Database",
+      "type": "single_choice",
+      "stem": "Which SQL statement reads rows from a table?",
+      "options": ["A. SELECT", "B. INSERT", "C. UPDATE", "D. DELETE"],
+      "answer": "A",
+      "explanation": "SELECT queries data from one or more tables.",
+      "tags": "sql,database",
+      "difficulty": "easy"
+    },
+    {
+      "subject": "Web",
+      "type": "single_choice",
+      "stem": "What does HTTP stand for?",
+      "options": ["A. HyperText Transfer Protocol", "B. High Transfer Text Process", "C. Host Transfer Type Protocol", "D. Hyper Tool Transfer Port"],
+      "answer": "A",
+      "explanation": "HTTP is the HyperText Transfer Protocol used by the web.",
+      "tags": "web,http",
+      "difficulty": "easy"
+    },
+    {
+      "subject": "AI",
+      "type": "single_choice",
+      "stem": "What is a prompt in an AI model interaction?",
+      "options": ["A. A database table", "B. User-provided instruction or input", "C. A network packet", "D. A CSS selector"],
+      "answer": "B",
+      "explanation": "A prompt is the input or instruction given to the model.",
+      "tags": "ai,basic",
+      "difficulty": "easy"
+    }
+  ]
+}
